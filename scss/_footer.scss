@@ -1,0 +1,79 @@
+.footer-wrapper {
+	width:100%;
+	height:auto;
+    @include gradient ($from-color, $to-color);
+}
+
+.footer {
+	width:100%;
+    
+    ul {
+        margin: 0 auto;
+        padding: 0;
+        list-style: none;
+
+        li {
+            text-align: center;
+            padding: .35em 0;
+            margin: 0 auto;
+            font-size: .85em;
+
+            a {
+                color: #EEE;
+                text-decoration: none;
+                &:hover {
+                    text-decoration: none;   
+                }
+            }
+        }
+    }
+    p {
+        font-size: .5em;
+        color: #EEE;
+        text-align: center;
+        
+    }
+}
+/**** Full Width Styles ****/
+/* Medium devices (desktop, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .footer { 
+        ul {
+            margin-left: 4em;
+            
+            li {
+                float: left;
+                padding: 1em;
+                margin: 0 auto;
+                font-size: .8em;
+            }
+        }
+        p {
+            font-size: .75em;
+
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .footer { 
+        ul {
+            margin-left: 4em;
+            
+            li {
+                float: left;
+                padding: 1.75em;
+                margin: 0 auto;
+                font-size: .9em;
+            }
+        }
+        p {
+            font-size: .75em;
+
+        }
+    }
+}
+
+
+
+

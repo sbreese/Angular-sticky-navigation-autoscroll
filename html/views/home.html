@@ -1,0 +1,91 @@
+
+
+<div id="fixed-height">
+        <div sticky-header>
+            <div class="sticky-header-container">
+
+                <!-- Blue Header Background -->
+                <div class="sticky-header-background">
+                </div>
+
+                <!-- Search Box Container -->
+                <!-- Nesting rows and columns to allow for smooth transition between relative and fixed  column -->
+                <div class="search-wrapper">
+                    <div class="row">
+                            <!-- Mobile Navigation -->
+                            <div id="start-mobile" class="container start-sticky">
+                                <div class="row">
+                                    <div id="mobile-nav-wrap">
+                                        <div id="all-mobile">
+                                            <ul id="start" class="show-above-768" style="display: none">
+                                                <li class="rock-star"><a class="blue" ng-click="toggleTravelerType('rock-star')"><span class="hide-in-sticky">Rock<br>Star</span></a></li>
+                                                <li class="cover-band"><a class="green" ng-click="toggleTravelerType('cover-band')"><span class="hide-in-sticky">Cover<br>Band</span></a></li>
+                                                <li class="touring-act"><a class="purple" ng-click="toggleTravelerType('touring-act')"><span class="hide-in-sticky">Touring<br>Act</span></a></li>
+                                                <li class="karaoke-star"><a class="gold" ng-click="toggleTravelerType('karaoke-star')"><span class="hide-in-sticky">Karaoke<br>Star</span></a></li>
+                                                <li class="producer"><a class="grey" ng-click="toggleTravelerType('producer')"><span class="hide-in-sticky">Record<br>Producer</span></a></li>
+                                                <li class="undisc-talent"><a class="red" ng-click="toggleTravelerType('undiscovered-talent')"><span class="hide-in-sticky">Undiscovered<br>Talent</span></a></li>
+                                                <li class="dj"><a class="teal" ng-click="toggleTravelerType('dj')"><span class="hide-in-sticky">DJ</span></a></li>
+                                            </ul>
+
+                                            <!-- Top -->
+                                            <ul id="start" class="top-nav hide-below-768">
+                                                <li class="rock-star"><a class="blue" ng-click="toggleTravelerType('rock-star')"><span class="hide-in-sticky">Rock<br>Star</span></a></li>
+                                                <li class="cover-band"><a class="green" ng-click="toggleTravelerType('cover-band')"><span class="hide-in-sticky">Cover<br>Band</span></a></li>
+                                                <li class="touring-act"><a class="purple" ng-click="toggleTravelerType('touring-act')"><span class="hide-in-sticky">Touring<br>Act</span></a></li>
+                                                <li class="karaoke-star"><a class="gold" ng-click="toggleTravelerType('karaoke-star')"><span class="hide-in-sticky">Karaoke<br>Star</span></a></li>
+                                            </ul>
+                                            <!-- Bottom -->
+                                            <ul class="bottom-nav hide-below-768">
+                                                <li class="producer"><a class="grey" ng-click="toggleTravelerType('producer')"><span class="hide-in-sticky">Record<br>Producer</span></a></li>
+                                                <li class="undisc-talent"><a class="red" ng-click="toggleTravelerType('undiscovered-talent')"><span class="hide-in-sticky">Undiscovered<br>Talent</span></a></li>
+                                                <li class="dj"><a class="teal" ng-click="toggleTravelerType('dj')"><span class="hide-in-sticky">DJ</span></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="start" class="container nav-full start-sticky">
+                                <!-- Full navigation -->
+                                <div class="row">
+                                    <!-- Start Navigation -->
+                                    <div id="nav-wrap">
+                                        <div id="all">
+                                            <ul class="show-except-300">
+                                                <li><a class="blue" ng-click="toggleTravelerType('rock-star')"><span>Rock<br>Star</span></a></li>
+                                                <li><a class="green" ng-click="toggleTravelerType('cover-band')"><span>Cover<br>Band</span></a></li>
+                                                <li><a class="purple" ng-click="toggleTravelerType('touring-act')"><span>Touring<br>Act</span></a></li>
+                                                <li><a class="gold" ng-click="toggleTravelerType('karaoke-star')"><span>Karaoke<br>Star</span></a></li>
+                                                <li><a class="grey" ng-click="toggleTravelerType('producer')"><span>Record<br>Producer</span></a></li>
+                                                <li><a class="red" ng-click="toggleTravelerType('undiscovered-talent')"><span>Undiscovered<br>Talent</span></a></li>
+                                                <li><a class="teal" ng-click="toggleTravelerType('dj')"><span>DJ</span></a></li>
+                                            </ul>
+
+                                            <ul class="hide-except-300 left-no-margin" style="list-style-type: none;">
+                                                <li><button class="blue btn btn-info" ng-click="toggleTravelerType('rock-star')" style="background-color: #496fb5;"><span>Rock Star</span></button></li>
+                                                <li><button class="green btn btn-info" ng-click="toggleTravelerType('cover-band')" style="background-color:#44A472;"><span>Cover Band</span></button></li>
+                                                <li><button class="purple btn btn-info" ng-click="toggleTravelerType('touring-act')" style="background-color:#6F489C;"><span>Touring Act</span></button></li>
+                                                <li><button class="gold btn btn-info" ng-click="toggleTravelerType('karaoke-star')" style="background-color:#F59120;"><span>Karaoke Star</span></button></li>
+                                            </ul>
+                                            <ul class="hide-except-300" style="list-style-type: none;">
+                                                <li><button class="grey btn btn-info less-padding" ng-click="toggleTravelerType('producer')" style="background-color:#58595B;"><span>Record<br>Producer</span></button></li>
+                                                <li><button class="red btn btn-info less-padding" ng-click="toggleTravelerType('undiscovered-talent')" style="background-color:#D23A45;"><span>Undiscovered<br>Talent</span></button></li>
+                                                <li><button class="teal btn btn-info" ng-click="toggleTravelerType('dj')" style="background-color: #57BF9E;"><span>DJ</span></button></li>
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                    <!-- End Navgation -->
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+<!-- Rock Star Section - refer to rock-star.html for all html code or rock-star.scss for styles -->
+<a class="account-for-sticky-header" id="rock-star-anchor"></a><div data-ng-include="'partials/rock-star.html'"></div>
+
+<!-- Cover Band Section - refer to rock-star.html for all html code or rock-star.scss for styles -->
+<a class="account-for-sticky-header" id="cover-band-anchor"></a><div data-ng-include="'partials/cover-band.html'"></div>
+
+<!-- / End Cover Band -->

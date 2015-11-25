@@ -1,0 +1,58 @@
+/******** THIS IS THE MAIN SCSS. THIS IMPORTS ALL SCSS FILES AND WILL COMPILE TO THE MAIN.CSS ********/
+/*******************************
+    Variables
+********************************/
+@import "variables";
+
+/*******************************
+    Bootstrap
+********************************/
+@import "bootstrap/normalize", "bootstrap/variables", "bootstrap/mixins", "bootstrap/grid", "bootstrap/media", "bootstrap/images";
+
+/*******************************
+   Defaults
+********************************/
+@import "defaults";
+
+/*******************************
+    Mixins
+********************************/
+@import "mixins";
+
+/*******************************
+    Header Styles
+********************************/
+@import "header";
+
+/*******************************
+    Header Content Styles
+********************************/
+@import "header-content";
+
+/*******************************
+    Navigation Styles
+********************************/
+@import "navigation";
+
+/*******************************
+    Footer Styles
+********************************/
+@import "footer";
+
+/*******************************
+    Rock Star Styles
+********************************/
+@import "rock-star";
+
+/*******************************
+   Slideshow CSS
+********************************/
+@import "slideshow";
+
+/*******************************
+   Media Queries & Tablet Fixes
+********************************/
+@import "media";
+
+
+

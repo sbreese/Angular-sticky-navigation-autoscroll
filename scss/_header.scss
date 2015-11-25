@@ -1,0 +1,29 @@
+  header {
+    width: 100%;
+    height: 4.1em;
+    margin: 0 -2em 0 0;
+    padding: 0;
+    position: relative;
+    @include gradient ($from-color, $to-color);
+    
+    .logo-container {
+        max-width: 1150px;
+        height: 4.1em;
+        margin: 0 auto;
+        
+        p {
+            margin: 0 auto;
+            padding: 0;
+            width: 129px;
+            height: 25px;
+            text-align: center;
+            
+            img {
+                padding-top: 1.2em;
+                width: 100%;
+            }
+        }
+
+    }
+    
+}

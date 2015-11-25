@@ -1,0 +1,682 @@
+/* SMALL MOBILE DEVICES */
+@media (min-width: 300px) and (max-width: 374px) {
+    .slider-wrapper {
+        width: 100%;
+        background: #FFF;
+        margin: .5em auto 0;
+        padding: 0;
+
+        .slider-inner {
+            width: 92%;
+            background: #FFF;
+            margin: 0 auto;
+            padding: 0;
+            position: relative;
+            
+            /* OVERLAY AND TEXT ON TOP */
+            .overlay-container {
+                background: #1b1b1b;
+                opacity: .8;
+                width: 100%;
+                padding: 1% 0;
+                position: absolute;
+                top: 2.5%;
+                
+                .topline {
+                    text-transform: uppercase;
+                    text-align: center;
+                    font-weight: 600;
+                    color: #FFF;
+                    font-size: .85em;
+                    margin: 0 auto;
+                    padding: 0;
+                }
+                .city {
+                    text-transform: uppercase;
+                    text-align: center;
+                    color: #FFF;
+                    font-size: 1.75em;
+                    margin: 0 auto;
+                    padding: 0;
+                }
+                .tagline {
+                    display: none;
+                    width: 80%;
+                    text-align: center;
+                    color: #FFF;
+                    font-size: 55%;
+                    margin: 0 auto;
+                    padding: .5em 0;
+                }
+            }
+            
+            /* BUTTONS */
+            button {
+                width: 28%;
+                text-transform: uppercase;
+                text-align: center;
+                font-weight: 600;
+                font-size: .6em;
+                padding: .25em;
+                margin: 0 auto;
+                border: 0;
+                border-radius: 0;
+            }
+            /* Button Positioning */
+            a .button1 {
+                position: absolute; 
+                bottom: 5%;
+                left: 3.5%;    
+            }
+            a .button2 {
+                position: absolute; 
+                bottom: 5%;
+                left: 36%;    
+            }
+            a .button3 {
+                position: absolute; 
+                bottom: 5%;
+                left: 68.5%;    
+            }
+            .height {
+                padding: 1.02em 0;   
+            }
+        }
+    }
+}
+
+@media (min-width: 375px) and (max-width: 413px) {
+    .slider-wrapper {
+        width: 100%;
+        background: #FFF;
+        margin: .5em auto 0;
+        padding: 0;
+
+        .slider-inner {
+            width: 92%;
+            background: #FFF;
+            margin: 0 auto;
+            padding: 0;
+            position: relative;
+            
+            /* OVERLAY AND TEXT ON TOP */
+            .overlay-container {
+                background: #1b1b1b;
+                opacity: .8;
+                width: 100%;
+                padding: 1% 0;
+                position: absolute;
+                top: 2.5%;
+                
+                .topline {
+                    text-transform: uppercase;
+                    text-align: center;
+                    font-weight: 600;
+                    color: #FFF;
+                    font-size: .85em;
+                    margin: 0 auto;
+                    padding: 0;
+                }
+                .city {
+                    text-transform: uppercase;
+                    text-align: center;
+                    color: #FFF;
+                    font-size: 1.75em;
+                    margin: 0 auto;
+                    padding: 0;
+                }
+                .tagline {
+                    display: none;
+                    width: 80%;
+                    text-align: center;
+                    color: #FFF;
+                    font-size: 55%;
+                    margin: 0 auto;
+                    padding: .5em 0;
+                }
+            }
+            
+            /* BUTTONS */
+            button {
+                width: 28%;
+                text-transform: uppercase;
+                text-align: center;
+                font-weight: 600;
+                font-size: .6em;
+                padding: .25em;
+                margin: 0 auto;
+                border: 0;
+                border-radius: 0;
+            }
+            /* Button Positioning */
+            a .button1 {
+                position: absolute; 
+                bottom: 5%;
+                left: 3.5%;    
+            }
+            a .button2 {
+                position: absolute; 
+                bottom: 5%;
+                left: 36%;    
+            }
+            a .button3 {
+                position: absolute; 
+                bottom: 5%;
+                left: 68.5%;    
+            }
+            .md-height {
+                padding: 1em 0;   
+            }
+        }
+    }
+}
+
+@media (min-width: 414px) and (max-width: 445px) {
+    .slider-wrapper {
+        width: 100%;
+        background: #FFF;
+        margin: .5em auto 0;
+        padding: 0;
+
+        .slider-inner {
+            width: 92%;
+            background: #FFF;
+            margin: 0 auto;
+            padding: 0;
+            position: relative;
+            
+            /* OVERLAY AND TEXT ON TOP */
+            .overlay-container {
+                background: #1b1b1b;
+                opacity: .8;
+                width: 100%;
+                padding: 1% 0;
+                position: absolute;
+                top: 2.5%;
+                
+                .topline {
+                    text-transform: uppercase;
+                    text-align: center;
+                    font-weight: 600;
+                    color: #FFF;
+                    font-size: .85em;
+                    margin: 0 auto;
+                    padding: 0;
+                }
+                .city {
+                    text-transform: uppercase;
+                    text-align: center;
+                    color: #FFF;
+                    font-size: 1.75em;
+                    margin: 0 auto;
+                    padding: 0;
+                }
+                .tagline {
+                    display: none;
+                    width: 80%;
+                    text-align: center;
+                    color: #FFF;
+                    font-size: 55%;
+                    margin: 0 auto;
+                    padding: .5em 0;
+                }
+            }
+            
+            /* BUTTONS */
+            button {
+                width: 28%;
+                text-transform: uppercase;
+                text-align: center;
+                font-weight: 600;
+                font-size: .8em;
+                padding: .25em;
+                margin: 0 auto;
+                border: 0;
+                border-radius: 0;
+            }
+            /* Button Positioning */
+            a .button1 {
+                position: absolute; 
+                bottom: 5%;
+                left: 3.5%;    
+            }
+            a .button2 {
+                position: absolute; 
+                bottom: 5%;
+                left: 36%;    
+            }
+            a .button3 {
+                position: absolute; 
+                bottom: 5%;
+                left: 68.5%;    
+            }
+            .xmd-height {
+                padding: 1em 0;   
+            }
+        }
+    }
+}
+
+/* LARGE PHONE AND MOBILE DEVICES */
+@media (min-width: 446px) and (max-width: 767px) {
+    .slider-wrapper {
+        width: 100%;
+        background: #FFF;
+        margin: .5em auto 0;
+        padding: 0;
+
+        .slider-inner {
+            width: 92%;
+            background: #FFF;
+            margin: 0 auto;
+            padding: 0;
+            position: relative;
+            
+            /* OVERLAY AND TEXT ON TOP */
+            .overlay-container {
+                background: #1b1b1b;
+                opacity: .8;
+                width: 100%;
+                padding: 1% 0;
+                position: absolute;
+                top: 2.5%;
+                
+                .topline {
+                    text-transform: uppercase;
+                    text-align: center;
+                    font-weight: 600;
+                    color: #FFF;
+                    font-size: 1.15em;
+                    margin: 0 auto;
+                    padding: .25em 0 0 0;
+                }
+                .city {
+                    text-transform: uppercase;
+                    text-align: center;
+                    color: #FFF;
+                    font-size: 1.75em;
+                    font-weight: 600;
+                    margin: 0 auto;
+                    padding: 0;
+                }
+                .tagline {
+                    display: none;
+                    width: 60%;
+                    text-align: center;
+                    color: #FFF;
+                    font-size: 65%;
+                    margin: 0 auto;
+                    padding: 0 0 .5em 0;
+                }
+            }
+            
+            /* BUTTONS */
+            button {
+                width: 28%;
+                text-transform: uppercase;
+                text-align: center;
+                font-weight: 600;
+                font-size: .8em;
+                padding: 1% 0;
+                border: 0;
+                border-radius: 0;
+            }
+            /* Button Positioning */
+            a .button1 {
+                position: absolute; 
+                bottom: 5%;
+                left: 5%;    
+            }
+            a .button2 {
+                position: absolute; 
+                bottom: 5%;
+                left: 36.5%;    
+            }
+            a .button3 {
+                position: absolute; 
+                bottom: 5%;
+                left: 68%;    
+            }
+        }
+    }
+}
+
+/* SMALL TABLETS DEVICES */
+@media (min-width: 768px) and (max-width: 991px) {
+    .slider-wrapper {
+        width: 100%;
+        background: #FFF;
+        margin: .5em auto 0 .3em;
+        padding: 0;
+
+        .slider-inner {
+            width: 95.5%;
+            background: #FFF;
+            margin: 0 auto;
+            padding: 0;
+            position: relative;
+            
+            /* OVERLAY AND TEXT ON TOP */
+            .overlay-container {
+                background: #1b1b1b;
+                opacity: .8;
+                width: 100%;
+                padding: 1em 0;
+                position: absolute;
+                top: 1em;
+                
+                .topline {
+                    text-transform: uppercase;
+                    text-align: center;
+                    color: #FFF;
+                    font-weight: 600;
+                    font-size: 1.25em;
+                    margin: 0 auto;
+                    padding: 0;
+                }
+                .city {
+                    text-transform: uppercase;
+                    text-align: center;
+                    color: #FFF;
+                    font-size: 2em;
+                    margin: 0 auto;
+                    padding: 0;
+                }
+                .tagline {
+                    width: 75%;
+                    text-align: center;
+                    color: #FFF;
+                    font-size: 1.25em;
+                    margin: 0 auto;
+                    padding: 0;
+                }
+            }
+            /* BUTTONS FOR SLIDER */
+            button {
+                width: 22.5%;
+                text-transform: uppercase;
+                text-align: center;
+                font-weight: 600;
+                font-size: 1em;
+                padding: 1em;
+                border: 0;
+                border-radius: 0;
+            }
+            /* Button Positioning */
+            .button1 {
+                position: absolute; 
+                bottom: 2.5%;
+                left: 8%;
+            }
+            a .button2 {
+                position: absolute; 
+                bottom:  2.5%;
+                left: 38%;    
+            }
+            a .button3 {
+                position: absolute; 
+                bottom:  2.5%;
+                left: 68%;    
+            }
+            .tablet-height {
+                padding: 1.75em 0;    
+            }
+        }
+    }
+}
+
+/* TABLET STYLE DEVICES */
+
+@media (min-width: 992px) and (max-width: 1279px) {
+    .slider-wrapper {
+        width: 100%;
+        background: #FFF;
+        margin: .5em auto 0 .3em;
+        padding: 0;
+
+        .slider-inner {
+            width: 95.5%;
+            background: #FFF;
+            margin: 0 auto;
+            padding: 0;
+            position: relative;
+            
+            /* OVERLAY AND TEXT ON TOP */
+            .overlay-container {
+                background: #1b1b1b;
+                opacity: .8;
+                width: 100%;
+                padding: 2em 0;
+                position: absolute;
+                top: 2em;
+                
+                .topline {
+                    text-transform: uppercase;
+                    text-align: center;
+                    color: #FFF;
+                    font-weight: 600;
+                    font-size: 1.250em;
+                    margin: 0 auto;
+                    padding: 0;
+                }
+                .city {
+                    text-transform: uppercase;
+                    text-align: center;
+                    color: #FFF;
+                    font-size: 2.500em;
+                    margin: 0 auto;
+                    padding: .25em 0
+                }
+                .tagline {
+                    width: 55%;
+                    text-align: center;
+                    color: #FFF;
+                    font-size: 100%;
+                    margin: 0 auto;
+                    padding: 0;
+                }
+            }
+            /* BUTTONS FOR SLIDER */
+            button {
+                width: 22.5%;
+                text-transform: uppercase;
+                text-align: center;
+                font-weight: 600;
+                font-size: 100%;
+                padding: 1em;
+                border: 0;
+                border-radius: 0;
+            }
+            /* Button Positioning */
+            .button1 {
+                position: absolute; 
+                bottom: 10%;
+                left: 8%;
+            }
+            a .button2 {
+                position: absolute; 
+                bottom:  10%;
+                left: 38%;    
+            }
+            a .button3 {
+                position: absolute; 
+                bottom:  10%;
+                left: 68%;    
+            }
+        }
+    }
+}
+
+
+
+
+/* COMPUTER STYLES */
+
+@media (min-width: 1280px) {
+    .slider-wrapper {
+        width: 100%;
+        background: #FFF;
+        margin: .5em auto 0 .3em;
+        padding: 0;
+
+        .slider-inner {
+            width: 95.5%;
+            background: #FFF;
+            margin: 0 auto;
+            padding: 0;
+            position: relative;
+            
+            /* OVERLAY AND TEXT ON TOP */
+            .overlay-container {
+                background: #1b1b1b;
+                opacity: .8;
+                width: 100%;
+                padding: 2em 0;
+                position: absolute;
+                top: 2em;
+                
+                .topline {
+                    text-transform: uppercase;
+                    text-align: center;
+                    color: #FFF;
+                    font-size: 1.250em;
+                    margin: 0 auto;
+                    padding: 0;
+                }
+                .city {
+                    text-transform: uppercase;
+                    text-align: center;
+                    color: #FFF;
+                    font-weight: 600;
+                    font-size: 2.500em;
+                    margin: 0 auto;
+                    padding: 0;
+                }
+                .tagline {
+                    width: 55%;
+                    text-align: center;
+                    color: #FFF;
+                    font-size: 1.250em;
+                    margin: 0 auto;
+                    padding: 0;
+                }
+            }
+            /* BUTTONS FOR SLIDER */
+            button {
+                width: 22.5%;
+                text-transform: uppercase;
+                text-align: center;
+                font-weight: 600;
+                font-size: 1.125em;
+                padding: 1em;
+                border: 0;
+                border-radius: 0;
+            }
+            /* Button Positioning */
+            .button1 {
+                position: absolute; 
+                bottom: 3.5em;
+                left: 7em;
+            }
+            a .button2 {
+                position: absolute; 
+                bottom:  3.5em;
+                left: 25em;    
+            }
+            a .button3 {
+                position: absolute; 
+                bottom:  3.5em;
+                left: 42em;    
+            }
+        }
+    }
+}
+
+
+ /* Button Color */
+
+a .button-blue {
+    background: #FFF;
+    color: #1b1b1b; 
+    &:hover {
+        background: #496fb5;
+        color: #FFF;
+    }
+    &:active {
+        background: #496fb5;
+        color: #FFF;       
+    }
+}
+a .button-green {
+    background: #FFF;
+    color: #1b1b1b; 
+    &:hover {
+        background: #44A472;
+        color: #FFF;
+    } 
+     &:active {
+        background: #44A472;
+        color: #FFF;
+    }  
+}
+a .button-purple {
+    background: #FFF;
+    color: #1b1b1b; 
+    &:hover {
+        background: #6F489C;
+        color: #FFF;
+    }
+    &:active {
+        background: #6F489C;
+        color: #FFF;
+    }
+}
+a .button-gold {
+    background: #FFF;
+    color: #1b1b1b; 
+    &:hover {
+        background: #F59120;
+        color: #FFF;
+    }
+    &:active {
+        background: #F59120;
+        color: #FFF;
+    }
+}
+a .button-grey {
+    background: #FFF;
+    color: #1b1b1b; 
+    &:hover {
+        background: #58595B;
+        color: #FFF;
+    }
+    &:active {
+        background: #58595B;
+        color: #FFF;
+    }
+}
+a .button-red {
+    background: #FFF;
+    color: #1b1b1b; 
+    &:hover {
+        background: #D23A45;
+        color: #FFF;
+    }
+    &:active {
+        background: #D23A45;
+        color: #FFF;
+    }
+}
+a .button-teal {
+    background: #FFF;
+    color: #1b1b1b; 
+    &:hover {
+        background: #57BF9E;
+        color: #FFF;
+    } 
+    &:active {
+        background: #57BF9E;
+        color: #FFF;
+    } 
+}
+/* / Button Color */

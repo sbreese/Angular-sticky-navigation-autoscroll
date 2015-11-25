@@ -1,0 +1,1158 @@
+@media (min-width: 300px) and (max-width: 413px) {    
+.nav-full {
+        display: none;
+    }
+
+    #mobile-nav-wrap {
+        width: 100%;
+        margin: 0 auto 1.5em;
+        padding: 0;
+
+        #all-mobile > ul { 
+        list-style: none;
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        height: 8em;
+        position: relative;
+
+        li {
+            float: left;
+            width: 2.5em;
+            height: 2.5em;
+            display: block; 
+            padding: 0;
+            margin: 0;
+            border-radius: 50%;
+        }
+    }
+
+    .top-nav {
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        
+        li {
+            margin: 0 auto;
+            padding: 0;
+        }
+        .rock-star /* Blue Circle */ {
+            position: absolute;
+            top: 1em;
+            left: 8%;
+            
+            span {
+                    
+            }
+        }
+        .cover-band /* Green Circle */ {
+            position: absolute;
+            top: 1em;
+            left: 30%;
+        }
+        .touring-act /* Purple Circle */ {
+            position: absolute;
+            top: 1em;
+            left: 52%;
+        }
+        .karaoke-star /* Gold Circle */ {
+            position: absolute;
+            top: 1em;
+            left: 74%;
+        }
+    }
+    .bottom-nav {
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        
+        li {
+            margin: 0 auto;
+            padding: 0;
+        }
+        .producer /* Grey Circle */ {
+            position: absolute;
+            top: 1em;
+            left: 15%;
+        }
+        .undisc-talent /* Red Circle */ {
+            position: absolute;
+            top: 1em;
+            left: 65%;
+        }
+        .dj /* Teal Circle */ {
+            position: absolute;
+            top: 1em;
+            left: 40%;
+        }
+    }
+
+    #all-mobile a { 
+        text-decoration: none;
+        width: 80%;
+        height: 80%;
+        float: left;
+        display: block; 
+        padding: 10px;
+        margin: 0 auto;
+        border-radius: 50%;
+        text-align: center;
+
+        -webkit-transition: all 0.2s ease;
+        -moz-transition: all 0.2s ease;
+        -o-transition: all 0.2s ease;
+    }
+    #all-mobile:hover a {
+        opacity: 0.2;
+    }
+    #all-mobile:hover ul:hover a {
+        opacity: 0.5;
+    }
+    #all-mobile:hover ul:hover a:hover {
+        opacity: 1;
+    }
+
+        /* Circle Colors */
+        .blue {
+            background-image: url(../images/navigation.gif)  !important;
+            background-size: 1000%;
+            color: #496fb5;
+            font-weight: bold;
+            font-size: .85em;
+            &:hover {
+                background-size: 1000%;
+                color: #496fb5 !important;
+            }
+            span {
+                position: absolute;
+                top: 4.5em;
+                left: .85em;    
+            }
+        }
+        .green {
+            background-image: url(../images/navigation.gif)  !important;
+            background-position: 17% 0 !important;
+            background-size: 1000%;
+            color: #44A472;
+            font-weight: bold;
+            font-size: .85em;
+                &:hover {
+                    background-image: url(../images/navigation.gif) !important;
+                    background-size: 1000% !important;
+                    background-position: 17% 0 !important;
+                    color: #44A472 !important;
+                }
+             span {
+                position: absolute;
+                top: 4.5em;
+                left: .5em;    
+            }
+        }
+        .purple {
+            background-image: url(../images/navigation.gif)  !important; 
+            background-size: 1000% !important;
+            background-position: 33.5% 0 !important;
+            background-size: 1000%;
+            color: #6F489C;
+            font-weight: bold;
+            font-size: .85em;
+                &:hover {
+                    background-image: url(../images/navigation.gif) !important;
+                    background-position: 33.5% 0 !important;
+                    background-size: 1000% !important;
+                    color: #6F489C !important;
+            } 
+             span {
+                position: absolute;
+                top: 4.5em;
+                left: 0;    
+            }
+        }
+        .gold {
+            background-image: url(../images/navigation.gif)  !important; 
+            background-size: 1000% !important;
+            background-position: 50% 0 !important;
+            color: #F59120;
+            font-weight: bold;
+            font-size: .85em;
+                &:hover {
+                    background-image: url(../images/navigation.gif) !important;
+                    background-position: 50% 0 !important;
+                    background-size: 1000% !important;
+                    color: #F59120 !important;
+                    
+                }
+             span {
+                position: absolute;
+                top: 4.5em;
+                left: 0;    
+            }
+        }
+        .grey {
+            background-image: url(../images/navigation.gif)  !important;
+            background-size: 1000% !important;
+            background-position: 66.5% 0 !important;
+            background-size: 1000%;
+            color: #58595B;
+            font-weight: bold;
+            font-size: .85em;
+                &:hover {
+                    background-image: url(../images/navigation.gif) !important;
+                    background-position: 66.5% 0 !important;
+                    color: #58595B !important;
+                }
+             span {
+                position: absolute;
+                top: 4.5em;
+                left: -.25em;    
+            }
+        }
+        .red {
+            background-image: url(../images/navigation.gif)  !important; 
+            background-size: 1000% !important;
+            background-position: 83.5% 0 !important;
+            background-size: 1000%;
+            color: #D23A45;
+            font-weight: bold;
+            font-size: .85em;
+                &:hover {
+                    background-image: url(../images/navigation.gif) !important;
+                    background-position: 83.5% 0 !important;
+                    color: #D23A45 !important;
+                }
+             span {
+                position: absolute;
+                top: 4.5em;
+                left: -1.25em;    
+            }
+        }
+        .teal {
+            background-image: url(../images/navigation.gif)  !important; 
+            background-size: 1000% !important;
+            background-position: 99.6% 0 !important;
+            background-size: 1000%;
+            color: #57BF9E;
+            font-weight: bold;
+            font-size: .85em;
+                &:hover {
+                    background-image: url(../images/navigation.gif) !important;
+                    background-position: 99.6% 0 !important;
+                    background-size: 1000% !important;
+                    color: #57BF9E !important;
+                }
+             span {
+                position: absolute;
+                top: 4.5em;
+                left: 1.25em;   
+            }
+        }
+    }
+}
+
+
+
+@media (min-width: 414px) and (max-width: 768px) {    
+.nav-full {
+        display: none;
+    }
+
+    #mobile-nav-wrap {
+        width: 100%;
+        margin: 0 auto 1.5em;
+        padding: 0;
+
+        #all-mobile > ul { 
+            list-style: none;
+            margin: 0 auto;
+            padding: 0;
+            width: 100%;
+            height: 8em;
+            position: relative;
+            font-family: $font;
+
+        li {
+            float: left;
+            width: 4em;
+            height: 4em;
+            display: block; 
+            padding: 0;
+            margin: 0 auto;
+            border-radius: 50%;
+        }
+    }
+
+    .top-nav {
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        
+        li {
+            margin: 0 auto;
+            padding: 0;
+        }
+        .rock-star /* Blue Circle */ {
+            position: absolute;
+            top: 1em;
+            left: 8%;
+            
+            span {
+                    
+            }
+        }
+        .cover-band /* Green Circle */ {
+            position: absolute;
+            top: 1em;
+            left: 30%;
+        }
+        .touring-act /* Purple Circle */ {
+            position: absolute;
+            top: 1em;
+            left: 52%;
+        }
+        .karaoke-star /* Gold Circle */ {
+            position: absolute;
+            top: 1em;
+            left: 74%;
+        }
+    }
+    .bottom-nav {
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        
+        li {
+            margin: 0 auto;
+            padding: 0;
+        }
+        .producer /* Grey Circle */ {
+            position: absolute;
+            top: 1em;
+            left: 15%;
+        }
+        .undisc-talent /* Red Circle */ {
+            position: absolute;
+            top: 1em;
+            left: 65%;
+        }
+        .dj /* Teal Circle */ {
+            position: absolute;
+            top: 1em;
+            left: 40%;
+        }
+    }
+
+    #all-mobile a { 
+        text-decoration: none;
+        width: 80%;
+        height: 80%;
+        float: left;
+        display: block; 
+        padding: 10px;
+        margin: 0 auto;
+        border-radius: 50%;
+        text-align: center;
+
+        -webkit-transition: all 0.2s ease;
+        -moz-transition: all 0.2s ease;
+        -o-transition: all 0.2s ease;
+    }
+    #all-mobile:hover a {
+        opacity: 0.2;
+    }
+    #all-mobile:hover ul:hover a {
+        opacity: 0.5;
+    }
+    #all-mobile:hover ul:hover a:hover {
+        opacity: 1;
+    }
+
+        /* Circle Colors */
+        .blue {
+            background-image: url(../images/navigation.gif)  !important;
+            background-size: 1000%;
+            border: 2px solid #FFF;
+            color: #496fb5;
+            font-weight: bold;
+            font-size: .85em;
+            &:hover {
+                background-size: 1000%;
+                color: #496fb5 !important;
+            }
+            span {
+                position: absolute;
+                top: 5.5em;
+                left: 1.5em;    
+            }
+        }
+        .green {
+            background-image: url(../images/navigation.gif)  !important;
+            background-position: 17% 0 !important;
+            background-size: 1000%;
+            border: 2px solid #FFF;
+            color: #44A472;
+            font-weight: bold;
+            font-size: .85em;
+                &:hover {
+                    background-image: url(../images/navigation.gif) !important;
+                    background-size: 1000% !important;
+                    background-position: 17% 0 !important;
+                    color: #44A472 !important;
+                }
+             span {
+                position: absolute;
+                top: 5.5em;
+                left: 1.25em;    
+            }
+        }
+        .purple {
+            background-image: url(../images/navigation.gif)  !important; 
+            background-size: 1000% !important;
+            background-position: 33.5% 0 !important;
+            background-size: 1000%;
+            border: 2px solid #FFF;
+            color: #6F489C;
+            font-weight: bold;
+            font-size: .85em;
+                &:hover {
+                    background-image: url(../images/navigation.gif) !important;
+                    background-position: 33.5% 0 !important;
+                    background-size: 1000%;
+                    color: #6F489C !important;
+            } 
+             span {
+                position: absolute;
+                top: 5.5em;
+                left: 1em;    
+            }
+        }
+        .gold {
+            background-image: url(../images/navigation.gif)  !important; 
+            background-size: 1000% !important;
+            background-position: 50% -1px !important;
+            background-size: 1000% !important;
+            border: 2px solid #FFF;
+            color: #F59120;
+            font-weight: bold;
+            font-size: .85em;
+                &:hover {
+                    background-image: url(../images/navigation.gif) !important;
+                    background-position: 50% -1px !important;
+                    background-size: 1000% !important;
+                    color: #F59120 !important;
+                }
+             span {
+                position: absolute;
+                top: 5.5em;
+                left: .75em;    
+            }
+        }
+        .grey {
+            background-image: url(../images/navigation.gif)  !important;
+            background-size: 1000% !important;
+            background-position: 66.5% -1px !important;
+            background-size: 1000%;
+            border: 2px solid #FFF;
+            color: #58595B;
+            font-weight: bold;
+            font-size: .85em;
+                &:hover {
+                    background-image: url(../images/navigation.gif) !important;
+                    background-position: 66.5% -1px !important;
+                    color: #58595B !important;
+                }
+             span {
+                position: absolute;
+                top: 5.5em;
+                left: .5em;    
+            }
+        }
+        .red {
+            background-image: url(../images/navigation.gif)  !important; 
+            background-size: 1000% !important;
+            background-position: 83.5% -1px !important;
+            background-size: 1000%;
+            border: 2px solid #FFF;
+            color: #D23A45;
+            font-weight: bold;
+            font-size: .85em;
+                &:hover {
+                    background-image: url(../images/navigation.gif) !important;
+                    background-position: 83.5% -1px !important;
+                    color: #D23A45 !important;
+                }
+             span {
+                position: absolute;
+                top: 5.5em;
+                left: -.75em;    
+            }
+        }
+        .teal {
+            background-image: url(../images/navigation.gif)  !important; 
+            background-size: 1000% !important;
+            background-position: 99.6% -1px !important;
+            background-size: 1000%;
+            border: 2px solid #FFF;
+            color: #57BF9E;
+            font-weight: bold;
+            font-size: .85em;
+                &:hover {
+                    background-image: url(../images/navigation.gif) !important;
+                    background-position: 99.6% -1px !important;
+                    background-size: 1000% !important;
+                    color: #57BF9E !important;
+                }
+             span {
+                position: absolute;
+                top: 5.5em;
+                left: 2.25em;   
+            }
+        }
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .nav-full {
+        display: none;
+    }
+
+    #mobile-nav-wrap {
+        width: 100%;
+        margin: 0 auto 1.5em .75em;
+        padding: 0;
+        
+        #all-mobile {
+            width: 95%;
+            margin-left: 1em;    
+        }
+        
+        #all-mobile > ul { 
+        list-style: none;
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        height: 12em;
+        position: relative;
+
+        li {
+            float: left;
+            width: 6em;
+            height: 6em;
+            display: block; 
+            padding: 0;
+            margin: 0 auto;
+            border-radius: 50%;
+            font-size: 1.25em;
+        }
+    }
+
+    .top-nav {
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        
+        li {
+            margin: 0 auto;
+            padding: 0;
+        }
+        .rock-star /* Blue Circle */ {
+            position: absolute;
+            top: 1em;
+            left: 8%;
+            
+            span {
+                    
+            }
+        }
+        .cover-band /* Green Circle */ {
+            position: absolute;
+            top: 1em;
+            left: 30%;
+        }
+        .touring-act /* Purple Circle */ {
+            position: absolute;
+            top: 1em;
+            left: 52%;
+        }
+        .karaoke-star /* Gold Circle */ {
+            position: absolute;
+            top: 1em;
+            left: 74%;
+        }
+    }
+    .bottom-nav {
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        
+        li {
+            margin: 0 auto;
+            padding: 0;
+        }
+        .producer /* Grey Circle */ {
+            position: absolute;
+            top: 1em;
+            left: 15%;
+        }
+        .undisc-talent /* Red Circle */ {
+            position: absolute;
+            top: 1em;
+            left: 65%;
+        }
+        .dj /* Teal Circle */ {
+            position: absolute;
+            top: 1em;
+            left: 40%;
+        }
+    }
+
+    #all-mobile a { 
+        text-decoration: none;
+        width: 80%;
+        height: 80%;
+        float: left;
+        display: block; 
+        padding: 10px;
+        margin: 0 auto;
+        border-radius: 50%;
+        text-align: center;
+
+        -webkit-transition: all 0.2s ease;
+        -moz-transition: all 0.2s ease;
+        -o-transition: all 0.2s ease;
+    }
+    #all-mobile:hover a {
+        opacity: 0.2;
+    }
+    #all-mobile:hover ul:hover a {
+        opacity: 0.5;
+    }
+    #all-mobile:hover ul:hover a:hover {
+        opacity: 1;
+    }
+
+        /* Circle Colors */
+        .blue {
+            background-image: url(../images/navigation.gif)  !important;
+            background-size: 1000% !important;
+            backgropund-position: -2px 0 !important;
+            color: #496fb5;
+            font-weight: bold;
+            font-size: 1em;
+            border: 2px solid #FFF;
+            &:hover {
+                background-size: 1000% !important;
+                color: #496fb5 !important;
+            }
+            span {
+                position: absolute;
+                top: 6em;
+                left: 1.75em;    
+            }
+        }
+        .green {
+            background-image: url(../images/navigation.gif)  !important;
+            background-position: 17% 0 !important;
+            background-size: 1000% !important;
+            color: #44A472;
+            font-weight: bold;
+            border: 2px solid #FFF;
+            font-size: 1em;
+                &:hover {
+                    background-image: url(../images/navigation.gif) !important;
+                    background-size: 1000% !important;
+                    background-position: 17% 0 !important;
+                    color: #44A472 !important;
+                }
+             span {
+                position: absolute;
+                top: 6em;
+                left: 1.5em;    
+            }
+        }
+        .purple {
+            background-image: url(../images/navigation.gif)  !important; 
+            background-size: 1000% !important;
+            background-position: 33.5% 0 !important;
+            background-size: 1000% !important;
+            color: #6F489C;
+            font-weight: bold;
+            border: 2px solid #FFF;
+            font-size: 1em;
+                &:hover {
+                    background-image: url(../images/navigation.gif) !important;
+                    background-position: 33.5% 0 !important;
+                    background-size: 1000% !important;
+                    color: #6F489C !important;
+            } 
+             span {
+                position: absolute;
+                top: 6em;
+                left: 1.25em;    
+            }
+        }
+        .gold {
+            background-image: url(../images/navigation.gif)  !important; 
+            background-size: 1000% !important;
+            background-position: 50% 0 !important;
+            background-size: 1000% !important;
+            color: #F59120;
+            font-weight: bold;
+            border: 2px solid #FFF;
+            font-size: 1em;
+                &:hover {
+                    background-image: url(../images/navigation.gif) !important;
+                    background-position: 50% 0 !important;
+                    background-size: 1000% !important;
+                    color: #F59120 !important;
+                }
+             span {
+                position: absolute;
+                top: 6em;
+                left: .75em;    
+            }
+        }
+        .grey {
+            background-image: url(../images/navigation.gif)  !important;
+            background-size: 1000% !important;
+            background-position: 66.5% 0 !important;
+            background-size: 1000% !important;
+            color: #58595B;
+            font-weight: bold;
+            border: 2px solid #FFF;
+            font-size: 1em;
+                &:hover {
+                    background-image: url(../images/navigation.gif) !important;
+                    background-position: 66.5% 0 !important;
+                    background-size: 1000% !important;
+                    color: #58595B !important;
+                }
+             span {
+                position: absolute;
+                top: 6em;
+                left: .75em;    
+            }
+        }
+        .red {
+            background-image: url(../images/navigation.gif)  !important; 
+            background-size: 1000% !important;
+            background-position: 83.5% 0 !important;
+            background-size: 1000% !important;
+            color: #D23A45;
+            border: 2px solid #FFF;
+            font-weight: bold;
+            font-size: 1em;
+                &:hover {
+                    background-image: url(../images/navigation.gif) !important;
+                    background-position: 83.5% 0 !important;
+                    background-size: 1000% !important;
+                    color: #D23A45 !important;
+                }
+             span {
+                position: absolute;
+                top: 6em;
+                left: -.25;    
+            }
+        }
+        .teal {
+            background-image: url(../images/navigation.gif)  !important; 
+            background-size: 1000% !important;
+            background-position: 99.6% 0 !important;
+            background-size: 1000%;
+            border: 2px solid #FFF;
+            color: #57BF9E;
+            font-weight: bold;
+            font-size: 1em;
+                &:hover {
+                    background-image: url(../images/navigation.gif) !important;
+                    background-position: 99.6% 0 !important;
+                    background-size: 1000% !important;
+                    color: #57BF9E !important;
+                }
+             span {
+                position: absolute;
+                top: 6em;
+                left: 2.5em;   
+            }
+        }
+    }  
+}
+// Tablet display //
+@media (min-width: 992px) and (max-width: 1199px) { 
+#mobile-nav-wrap {
+    display: none;   
+} 
+    
+.nav-full {
+    width: 100%;
+    margin: 0 auto;
+    display: none;
+    padding: 0;
+}
+#all > ul { 
+    list-style: none;
+    margin: 0 auto 0 1em;
+    padding: 0 10px 0 0;
+    height: 13em;
+    position: relative;
+    
+    li {
+        width: 75px;
+        height: 75px;
+        float: left;
+        display: block; 
+        padding: 10px;
+        margin: 1em 1em;
+        border-radius: 50%;
+        text-align: center;
+    }
+}
+#all a { 
+    text-decoration: none; 
+    width: 75px;
+    height: 75px;
+    float: left;
+    display: block; 
+    padding: 10px;
+    margin: 1em 1.45em;
+    border-radius: 50%;
+    text-align: center;
+
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+}
+#all:hover a {
+    opacity: 0.2;
+}
+#all:hover ul:hover a {
+    opacity: 0.5;
+    background: #999;
+}
+#all:hover ul:hover a:hover {
+    opacity: 1;
+}
+    
+/* Circle Colors */
+.blue {
+
+    background-image: url(../images/navigation.gif)  !important;
+    background-size: 1000% !important;
+    background-position: -4px 0 !important;
+    border: 2px solid #FFF;
+    color: #496fb5;
+    font-weight: bold;
+    &:hover {
+        background-size: 1000% !important;
+        background-position: -4px 0 !important;
+        color: #496fb5 !important;
+    }
+    
+    span {
+        position: absolute;
+        bottom: 1.1em;
+        left: 4.5em;    
+    }
+}
+.green {
+    background-image: url(../images/navigation.gif) !important;
+    background-size: 1000% !important;
+    background-position: -145px 0 !important;
+    border: 2px solid #FFF;
+    color: #44A472;
+    font-weight: bold;
+        &:hover {
+            background-image: url(../images/navigation.gif) !important;
+            background-position: -145px 0 !important;
+            background-size: 1000% !important;
+            color: #44A472 !important;
+        }
+     span {
+        position: absolute;
+        bottom: 1.1em;
+        left: 12.35em;    
+    }
+}
+.purple {
+    background-color: #6F489C;
+    background-image: url(../images/navigation.gif) !important;
+    background-position: -287px -1px !important;
+    background-size: 1000% !important;
+    border: 2px solid #FFF;
+    color: #6F489C;
+    font-weight: bold;
+        &:hover {
+            background-color: #6F489C !important;
+            background-image: url(../images/navigation.gif) !important;
+            background-position: -287px -1px !important;
+            background-size: 1000% !important;
+            color: #6F489C !important;
+    } 
+     span {
+        position: absolute;
+        bottom: 1.1em;
+        left: 20em;    
+    }
+}
+.gold {
+    background-image: url(../images/navigation.gif) !important;
+    background-size: 1000% !important;
+    background-position: -427px -1px !important;
+    border: 2px solid #FFF;
+    color: #F59120;
+    font-weight: bold;
+        &:hover {
+            background-image: url(../images/navigation.gif) !important;
+            background-position: -427px -1px !important;
+            background-size: 1000% !important;
+            color: #F59120 !important;
+        }
+     span {
+        position: absolute;
+        bottom: 1.1em;
+        left: 27.5em;    
+    }
+}
+.grey {
+    background-image: url(../images/navigation.gif) !important;
+    background-position: -570px -1px !important;
+    background-size: 1000% !important;
+    border: 2px solid #FFF;
+    color: #58595B;
+    font-weight: bold;
+        &:hover {
+            background-image: url(../images/navigation.gif) !important;
+            background-position: -570px -1px !important;
+            background-size: 1000% !important;
+            color: #58595B !important;
+        }
+     span {
+        position: absolute;
+        bottom: 1.1em;
+        right: 20.5em;    
+    }
+}
+.red {
+    background-image: url(../images/navigation.gif) !important;
+    background-size: 1000% !important;
+    background-position: -711px -1px !important;
+    border: 2px solid #FFF;
+    color: #D23A45;
+    font-weight: bold;
+        &:hover {
+            background-image: url(../images/navigation.gif) !important;
+            background-size: 1000% !important;
+            background-position: -711px -1px !important;
+            color: #D23A45 !important;
+        }
+     span {
+        position: absolute;
+        bottom: 1.1em;
+        right: 11.25em;    
+    }
+}
+.teal {
+    background-image: url(../images/navigation.gif) !important;
+    background-size: 1000% !important;
+    background-position: -852px -1px !important;
+    border: 2px solid #FFF;
+    color: #57BF9E;
+    font-weight: bold;
+        &:hover {
+            background-image: url(../images/navigation.gif) !important;
+            background-size: 1000% !important;
+            background-position: -852px -1px !important;
+            color: #57BF9E !important;
+        }
+     span {
+        position: absolute;
+        bottom: 2.5em;
+        right: 6.25em;    
+    }
+}
+/* End Circle Colors */ 
+}
+
+
+
+
+// Computer display //
+@media (min-width: 1200px){ 
+#mobile-nav-wrap {
+    display: none;   
+} 
+    
+.nav-full {
+    width: 99%;
+    margin: 0 auto;
+    display: none;
+    padding: 0;
+}
+#all > ul { 
+    list-style: none;
+    margin: 0 auto 0 -1em;
+    padding: 0;
+    height: 13em;
+    position: relative;
+    
+    li {
+        width: 100px;
+        height: 100px;
+        float: left;
+        display: block; 
+        padding: 10px;
+        margin: 1em 1.45em;
+        border-radius: 50%;
+        text-align: center;
+    }
+}
+#all a { 
+    text-decoration: none; 
+    width: 100px;
+    height: 100px;
+    float: left;
+    display: block; 
+    padding: 10px;
+    margin: 1em 1.45em;
+    border-radius: 50%;
+    text-align: center;
+
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+}
+#all:hover a {
+    opacity: 0.2;
+}
+#all:hover ul:hover a {
+    opacity: 0.5;
+    background: #999;
+}
+#all:hover ul:hover a:hover {
+    opacity: 1;
+}
+    
+/* Circle Colors */
+.blue {
+    background-image: url(../images/navigation.gif)  !important;
+    background-position: -2px 0 !important;
+    color: #496fb5;
+    font-weight: bold;
+    border: 2px solid #FFF;
+    &:hover {
+        background-position: -2px 0 !important;
+        color: #496fb5 !important;
+    }
+    
+    span {
+        position: absolute;
+        bottom: -.5em;
+        left: 6em;    
+    }
+}
+.green {
+    background-image: url(../images/navigation.gif) !important;
+    background-position: -173px 0 !important;
+    color: #44A472;
+    border: 2px solid #FFF;
+    font-weight: bold;
+        &:hover {
+            background-image: url(../images/navigation.gif) !important;
+            background-position: -173px 0 !important;
+            color: #44A472 !important;
+        }
+     span {
+        position: absolute;
+        bottom: -.5em;
+        left: 16.15em;    
+    }
+}
+.purple {
+    background-image: url(../images/navigation.gif) !important;
+    background-position: -346px -1px !important;
+    color: #6F489C;
+    border: 2px solid #FFF;
+    font-weight: bold;
+        &:hover {
+            background-image: url(../images/navigation.gif) !important;
+            background-position: -346px -1px !important;
+            color: #6F489C !important;
+    } 
+     span {
+        position: absolute;
+        bottom: -.5em;
+        left: 26em;    
+    }
+}
+.gold {
+    background-image: url(../images/navigation.gif) !important;
+    background-position: -516px -1px !important;
+    border: 2px solid #FFF;
+    color: #F59120;
+    font-weight: bold;
+        &:hover {
+            background-image: url(../images/navigation.gif) !important;
+            background-position: -516px -1px !important;
+            color: #F59120 !important;
+        }
+     span {
+        position: absolute;
+        bottom: -.5em;
+        left: 36.3em;    
+    }
+}
+.grey {
+    background-image: url(../images/navigation.gif) !important;
+    background-position: -687px -1px !important;
+    border: 2px solid #FFF;
+    color: #58595B;
+    font-weight: bold;
+        &:hover {
+            background-image: url(../images/navigation.gif) !important;
+            background-position: -687px -1px !important;
+            color: #58595B !important;
+        }
+     span {
+        position: absolute;
+        bottom: -.5em;
+        right: 23.8em;    
+    }
+}
+.red {
+    background-image: url(../images/navigation.gif) !important;
+    background-position: -858px -1px !important;
+    border: 2px solid #FFF;
+    color: #D23A45;
+    font-weight: bold;
+        &:hover {
+            background-image: url(../images/navigation.gif) !important;
+            background-position: -858px -1px !important;
+            color: #D23A45 !important;
+        }
+     span {
+        position: absolute;
+        bottom: -.5em;
+        right: 12em;    
+    }
+}
+.teal {
+    background-color: #57BF9E;
+    background-image: url(../images/navigation.gif) !important;
+    background-position: -1030px -1px !important;
+    border: 2px solid #FFF;
+    color: #57BF9E;
+    font-weight: bold;
+        &:hover {
+            background: #57BF9E !important;
+            background-image: url(../images/navigation.gif) !important;
+            background-position: -1030px -1px !important;
+            color: #57BF9E !important;
+        }
+     span {
+        position: absolute;
+        bottom: 1em;
+        right: 4.75em;    
+    }
+}
+/* End Circle Colors */ 
+}
